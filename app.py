@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 st.header('Wholesale Customer Data')
-data = pd.read_csv('mentornow/Wholesale_customers_data.csv')
+data = pd.read_csv('Wholesale_customers_data.csv')
 
 
 a=data['Region'].unique()
